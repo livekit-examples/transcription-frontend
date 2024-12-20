@@ -1,8 +1,8 @@
 import type { Config } from "tailwindcss";
 import colors from "tailwindcss/colors";
 
-const groq = {
-  "accent-bg": "rgb(245, 80, 54)",
+const custom = {
+  "accent-bg": "#111111",
 };
 
 export default {
@@ -15,7 +15,7 @@ export default {
   theme: {
     colors: {
       ...colors,
-      groq,
+      ...custom,
     },
   },
   plugins: [],

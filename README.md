@@ -2,7 +2,7 @@
   <img src="./.github/assets/livekit-mark.png" alt="LiveKit logo" width="100" height="100">
 </a>
 
-# Next.js Groq Transcription Frontend
+# Next.js Transcription Frontend
 
 <p>
   <a href="https://cloud.livekit.io/projects/p_/sandbox"><strong>Deploy a sandbox app</strong></a>
@@ -21,7 +21,7 @@ A basic example of a speech transcription frontend using LiveKit.
 Clone the repository and install dependencies to a virtual environment:
 
 ```console
-cd transcription-frontend-groq
+cd transcription-frontend
 pnpm install
 ```
 

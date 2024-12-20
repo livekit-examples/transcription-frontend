@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: rgb(245, 80, 54);
+  --background: #111111;
   --foreground: #ffffff;
 
   scrollbar-color: rgba(255, 255, 255, 0.2) transparent;

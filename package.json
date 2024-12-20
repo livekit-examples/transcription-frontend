@@ -1,5 +1,5 @@
 {
-  "name": "transcriber-frontend-groq",
+  "name": "transcriber-frontend",
   "version": "0.1.0",
   "private": true,
   "scripts": {

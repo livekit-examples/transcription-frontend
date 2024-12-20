@@ -43,10 +43,10 @@ export const DeviceSelector = ({ kind }: DeviceSelectorProps) => {
           e.stopPropagation();
         }}
       >
-        <ChevronDown className="w-4 h-4 text-groq-accent-text" />
+        <ChevronDown className="w-4 h-4 text-accent-text" />
       </button>
       <div
-        className="absolute bg-groq-accent-bg left-0 bottom-8 text-[#424049] text-left border-white/20 border-[1px] box-border rounded-[5px] z-10 w-[280px]"
+        className="absolute bg-accent-bg left-0 bottom-8 text-[#424049] text-left border-white/20 border-[1px] box-border rounded-[5px] z-10 w-[280px]"
         style={{
           display: showMenu ? "block" : "none",
         }}
@@ -69,11 +69,10 @@ export const DeviceSelector = ({ kind }: DeviceSelectorProps) => {
                 deviceSelect.setActiveMediaDevice(device.deviceId);
                 setShowMenu(false);
               }}
-              className={`${
-                device.deviceId === deviceSelect.activeDeviceId
-                  ? "text-white"
-                  : "text-white"
-              }  text-xs py-2 px-2 cursor-pointer hover:bg-white/10 ${roundedStyles}`}
+              className={`${device.deviceId === deviceSelect.activeDeviceId
+                ? "text-white"
+                : "text-white"
+                }  text-xs py-2 px-2 cursor-pointer hover:bg-white/10 ${roundedStyles}`}
               key={index}
             >
               {device.label}
