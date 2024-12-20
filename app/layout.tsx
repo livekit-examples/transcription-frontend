@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Transcription Playground",
-  description: "Realtime transcription with Groq and LiveKit",
+  description: "Realtime transcription with LiveKit",
 };
 
 export default function RootLayout({
