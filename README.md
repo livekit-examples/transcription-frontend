@@ -27,9 +27,9 @@ pnpm install
 
 Set up the environment by copying `.env.example` to `.env.local` and filling in the required values:
 
-- `LIVEKIT_URL`
 - `LIVEKIT_API_KEY`
 - `LIVEKIT_API_SECRET`
+- `NEXT_PUBLIC_LIVEKIT_URL`
 
 You can also do this automatically using the LiveKit CLI:
 
